@@ -1,0 +1,11 @@
+include:
+  - gitlab
+  - gitlab.gitlab
+  - gitlab.gitlab-shell
+  - gitlab.nginx
+  - gitlab.packages
+  - gitlab.repos
+  - gitlab.ruby
+  - gitlab.runner
+  - gitlab.user
+  - gitlab.postgresql
