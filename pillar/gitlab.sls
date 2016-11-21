@@ -4,9 +4,9 @@ gitlab:
   shell_version: v1.8.0
   gitlab_version: 6-5-stable
   db_engine: postgresql
-  db_name: 'gitlabhq_production'
-  db_user: 'git'
-  db_pass: 'MyVerySecretGitLabPassword'
+  db_name: 'ecom'
+  db_user: 'ecomadmin'
+  db_pass: '590321912'
   gravatar:
     enabled: false
   omniauth:
@@ -32,7 +32,7 @@ gitlab:
   unicorn:
     worker_processes: 2
     timeout: 30
-  https: True
+  https: false
   ssl_key: |
     -----BEGIN PRIVATE KEY-----
     ABC=
