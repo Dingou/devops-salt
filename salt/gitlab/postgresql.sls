@@ -1,7 +1,8 @@
-{% set postgres = salt['pillar.get']('gitlab:postgres') %}
+{% set postgres = salt['pillar.get']('gitlab:postgresql') %}
 gitlab-db:
   postgres_user.present:
-    - db_user: {{ postgres['db_user'] }}
+    - name: {{ postgres['db_user'] }}
+    - db_user: {{ postgres['db_admin'] }}
     - db_password: {{ postgres['db_pass'] }}
     - db_host: {{ postgres['db_host'] }}
     - db_port: {{ postgres['db_port'] }}
