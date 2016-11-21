@@ -2,35 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb7289a6-6bbf-4a85-abb9-49d3e411d4ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pillar/gitlab/ecom-1.sls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pillar/gitlab/gitlab.sls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/salt/system/file/incre_swap.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/salt/system/swap.sls" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pillar/gitlab.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-database.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-default" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-gitconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-gitlab.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-logrotate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-nginx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-nginx-ssl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-rack_attack.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-shell-config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/files/gitlab-unicorn.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/gitlab-shell.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/gitlab.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/map.jinja" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/nginx.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/packages.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/postgresql.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/repos.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/ruby.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/runner.sls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/salt/gitlab/user.sls" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pillar/top.sls" afterPath="$PROJECT_DIR$/pillar/top.sls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/ecom.sls" afterPath="$PROJECT_DIR$/salt/ecom.sls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/gitlab/init.sls" afterPath="$PROJECT_DIR$/salt/gitlab/init.sls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/top.sls" afterPath="$PROJECT_DIR$/salt/top.sls" />
     </list>
     <ignored path="salt.iws" />
@@ -80,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gitlab.sls" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gitlab.sls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pillar/gitlab/gitlab.sls">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -120,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top.sls" pinned="false" current-in-tab="false">
+      <file leaf-file-name="top.sls" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/salt/top.sls">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -154,12 +125,12 @@
         <option value="$PROJECT_DIR$/pillar/gitlab.sls" />
         <option value="$PROJECT_DIR$/salt/gitlab/files/gitlab-database.yml" />
         <option value="$PROJECT_DIR$/pillar/top.sls" />
-        <option value="$PROJECT_DIR$/salt/ecom.sls" />
-        <option value="$PROJECT_DIR$/salt/top.sls" />
         <option value="$PROJECT_DIR$/pillar/gitlab/gitlab.sls" />
         <option value="$PROJECT_DIR$/pillar/gitlab/ecom-1.sls" />
         <option value="$PROJECT_DIR$/salt/system/file/incre_swap.sh" />
         <option value="$PROJECT_DIR$/salt/system/swap.sls" />
+        <option value="$PROJECT_DIR$/salt/ecom.sls" />
+        <option value="$PROJECT_DIR$/salt/top.sls" />
       </list>
     </option>
   </component>
@@ -942,14 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salt/top.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pillar/gitlab/ecom-1.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -962,6 +925,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/gitlab/init.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pillar/gitlab/gitlab.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -982,18 +961,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salt/gitlab/init.sls">
+    <entry file="file://$PROJECT_DIR$/salt/top.sls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pillar/gitlab/gitlab.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
