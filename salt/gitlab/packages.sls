@@ -1,6 +1,3 @@
-include:
-  - git
-
 gitlab-deps:
   pkg.installed:
 {% if grains['os_family'] == 'RedHat' %}
