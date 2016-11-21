@@ -24,3 +24,5 @@ pkgs:
   - libcurl4-openssl-dev
   - libicu-dev
   - logrotate
+  - git
+  - postfix
