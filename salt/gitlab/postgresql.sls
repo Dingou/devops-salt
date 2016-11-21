@@ -12,6 +12,6 @@ gitlab-db:
     - inherit: True
     - login: True
   postgres_database.present:
-    - name: {{ salt['pillar.get']('gitlab:db_name') }}
-    - owner: {{ salt['pillar.get']('gitlab:db_user') }}
+    - name: {{ postgres['db_name'] }}
+    - owner: {{ postgres['db_user'] }}
     - template: template1

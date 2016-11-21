@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb7289a6-6bbf-4a85-abb9-49d3e411d4ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pillar/gitlab.sls" afterPath="$PROJECT_DIR$/pillar/gitlab.sls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/gitlab/postgresql.sls" afterPath="$PROJECT_DIR$/salt/gitlab/postgresql.sls" />
     </list>
     <ignored path="salt.iws" />
@@ -125,8 +124,8 @@
       <file leaf-file-name="postgresql.sls" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/salt/gitlab/postgresql.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -917,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/salt/gitlab/postgresql.sls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
