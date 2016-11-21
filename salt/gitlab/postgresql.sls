@@ -1,11 +1,17 @@
+{% set postgres = salt['pillar.get']('gitlab:postgres') %}
 gitlab-db:
   postgres_user.present:
-    - name: {{ salt['pillar.get']('gitlab:db_user') }}
-    - password: {{ salt['pillar.get']('gitlab:db_pass') }}
+    - db_user: {{ postgres['db_user'] }}
+    - db_password: {{ postgres['db_pass'] }}
+    - db_host: {{ postgres['db_host'] }}
+    - db_port: {{ postgres['db_port'] }}
+    - createdb: True
+    - createroles: True
+    - encrypted: True
+    - replication: True
+    - inherit: True
+    - login: True
   postgres_database.present:
     - name: {{ salt['pillar.get']('gitlab:db_name') }}
     - owner: {{ salt['pillar.get']('gitlab:db_user') }}
     - template: template1
-    - require:
-      - file: gitlab-service
-      - postgres_user: gitlab-db

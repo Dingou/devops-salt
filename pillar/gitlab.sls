@@ -1,12 +1,16 @@
 gitlab:
+  postgresql:
+    db_name: 'ecom'
+    db_user: 'ecom'
+    db_admin: 'ecomadmin'
+    db_pass: '590321912'
+    db_host: 'ecom.cucljzajvh8k.ap-northeast-1.rds.amazonaws.com'
+    db_port: '5432'
   use_rvm: False
   rvm_ruby: 2.1.0
   shell_version: v1.8.0
   gitlab_version: 6-5-stable
   db_engine: postgresql
-  db_name: 'ecom'
-  db_user: 'ecomadmin'
-  db_pass: '590321912'
   gravatar:
     enabled: false
   omniauth:
