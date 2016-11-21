@@ -2,8 +2,8 @@ swapness: 4096
 
 users:
   gitlab:
-    home: '/home/gitlab'
-    shell: '/sbin/nologin'
+    home: /home/gitlab
+    shell: /sbin/nologin
 
 pkgs:
   - build-essential
