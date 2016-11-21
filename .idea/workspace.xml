@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb7289a6-6bbf-4a85-abb9-49d3e411d4ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/system/swap.sls" afterPath="$PROJECT_DIR$/salt/system/swap.sls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/system/file/incre_swap.sh" afterPath="$PROJECT_DIR$/salt/system/file/incre_swap.sh" />
     </list>
     <ignored path="salt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="incre_swap.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="incre_swap.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/salt/system/file/incre_swap.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -101,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swap.sls" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swap.sls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/system/swap.sls">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -127,10 +127,10 @@
         <option value="$PROJECT_DIR$/pillar/top.sls" />
         <option value="$PROJECT_DIR$/pillar/gitlab/gitlab.sls" />
         <option value="$PROJECT_DIR$/pillar/gitlab/ecom-1.sls" />
-        <option value="$PROJECT_DIR$/salt/system/file/incre_swap.sh" />
         <option value="$PROJECT_DIR$/salt/ecom.sls" />
         <option value="$PROJECT_DIR$/salt/top.sls" />
         <option value="$PROJECT_DIR$/salt/system/swap.sls" />
+        <option value="$PROJECT_DIR$/salt/system/file/incre_swap.sh" />
       </list>
     </option>
   </component>
@@ -953,18 +953,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/salt/system/file/incre_swap.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/system/swap.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/salt/system/file/incre_swap.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
