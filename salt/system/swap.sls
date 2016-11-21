@@ -1,4 +1,4 @@
-/root/incre_swap.sh
+/root/incre_swap.sh:
   file.managed:
     - source: salt://system/file/incre_swap.sh
     - user: root
