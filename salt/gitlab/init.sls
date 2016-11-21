@@ -5,7 +5,7 @@ user.present:
   - shell: {{ user['shell'] }}
 {% endfor %}
 
-{% for pkg in pillar[pkgs] %}
+{% for pkg in pillar['pkgs'] %}
 {{ pkg }}:
   pkg.installed:
 {% endfor %}
