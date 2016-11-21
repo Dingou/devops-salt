@@ -8,6 +8,6 @@
 
 swapspwace:
   cmd.run:
-    - name: ./root/incre_swap.sh
+    - name: /root/incre_swap.sh
     - require:
       - file: /root/incre_swap.sh
