@@ -13,7 +13,11 @@ if [ $? -ne 0 ]; then
       chmod 600 /swapfile
       mkswap /swapfile
       swapon /swapfile
-      echo '/swapfile none swap defaults 0 0' >> /etc/fstab
+      if [ -e /swapfile ]; then
+        echo '/swapfile none swap defaults 0 0' >> /etc/fstab
+      else
+        echo 'Swapfile create failed,Please check...'
+      fi
 else
       echo 'swapfile found. No changes made.'
 fi
